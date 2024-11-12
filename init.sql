@@ -10,7 +10,7 @@ USE test_db;
   );
 
 --TODO Crie a tabela de posts;
-  create table posts(
+  create table post(
     id int AUTO_INCREMENT,
     title varchar(100) NOT NULL,
     description varchar(100) NOT NULL,
