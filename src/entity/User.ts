@@ -15,5 +15,21 @@ class User{
     this.lastName = lastName;
     this.email = email;
   }
+
+  get Id: number(){
+    return this.id;
+  }
+
+  get FirstName: string(){
+    return this.firstName;
+  }
+
+  get LastName: string(){
+    return this.lastName;
+  }
+
+  get Email: string(){
+    return this.email;
+  }
   
 }
