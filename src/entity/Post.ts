@@ -13,5 +13,17 @@ class Post{
       this.string = string;
       this.description = description;
   }
+
+  get Id: number(){
+    return this.id;
+  }
+
+  get Title: string(){
+    return this.title;
+  }
+
+  get Description: string(){
+    return this.description;
+  }
   
 }
