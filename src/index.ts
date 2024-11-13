@@ -34,11 +34,11 @@ const initializeDatabase = async () => {
 initializeDatabase();
 
 app.post('/users', async (req, res) => {
-// Crie o endpoint de users
+   res.send("POST Request Called") 
 });
 
 app.post('/posts', async (req, res) => {
-// Crie o endpoint de posts
+   res.send("POST Request Called")
 });
 
 const PORT = process.env.PORT || 3000;
